@@ -2,7 +2,7 @@
  * @Author: qiansc
  * @Date: 2018-10-17 10:42:16
  * @Last Modified by: qiansc
- * @Last Modified time: 2018-10-17 17:31:42
+ * @Last Modified time: 2018-10-17 18:21:19
  */
 export function isExpLike(expLike: string): (boolean | RegExpMatchArray) {
   const matches = expLike.match(/^`.*`$/);
